@@ -18,4 +18,9 @@ public class Scoreboard
     {
         return teamOneScore + "-" + teamTwoScore + "-" + activeTeam;
     }
+    public static void recordPlay (int score)
+    {
+        int teamOneScore =+ 1;
+
+    }
 }
