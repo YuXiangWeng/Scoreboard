@@ -1,7 +1,11 @@
 public class Main
 {
-    public void main(String[] args)
+    public static void main(String[] args)
     {
-        
+        String info;
+        Scoreboard game = new Scoreboard("Red","Blue");
+        info = game.getScore();
+        System.out.println(info);
     }
+    
 }
